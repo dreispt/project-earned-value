@@ -7,21 +7,18 @@
     "name": "Project Earned Value Task",
     "summary": "Manage the progress of your projects using the Earned Value "
                "Management technique.",
-    "version": "8.0.1.0.0",
+    "version": "8.0.1.0.1",
     "author": "Eficent Business and IT Consulting Services SL,"
               "Odoo Community Association (OCA)",
     "website": "www.eficent.com",
     "category": "Generic Modules/Projects & Services",
     "depends": ["project", "hr_timesheet"],
-    "license": 'AGPL-3',
+    "license": "AGPL-3",
     "data": [
         "views/project_evm_view.xml",
         "views/project_view.xml",
         "wizards/earned_value_view.xml",
         "data/project_data.xml",
-    ],
-    'demo': [
-
     ],
     'installable': True,
 }
